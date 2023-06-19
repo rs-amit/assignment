@@ -162,7 +162,6 @@ function Calculator() {
                 <tr>
                   <td>
                     <div className="interestValue">
-                    {/* <ClipLoader color="white" size={15} />  */}
                       <div>{selectedmonthlyInstallmentCurrency.option === "INR" ? "₹" : "$"} {monthlyInstallment} </div>
                       <SelectBox
                         options={Currency}
@@ -182,16 +181,7 @@ function Calculator() {
                           },
                         })}
                       />
-                      {/* <select
-                          value={selectedCurrency}
-                          onChange={(e) => setSelectedCurrency(e.target.value)}
-                        >
-                          {Currency.map((x, index) => (
-                            <option key={`${index}_${x}`} value={x}>
-                              {x}
-                            </option>
-                          ))}
-                        </select> */}
+                
                     </div>
                   </td>
 
@@ -238,12 +228,3 @@ function Calculator() {
 
 export default Calculator;
 
-// const OnSelectHandler = (event, target) =>{
-//   // let option = {...event}
-//   // option.name = target.name
-//   // if(target.name === "monthlyInstallment"){
-//   //   setSelectedmonthlyInstallmentCurrency(option)
-//   // }else{
-//   //   setSelectedTotalInterestCurrency(option)
-//   // }
-// }
