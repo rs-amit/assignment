@@ -1,0 +1,67 @@
+.registerContainer{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerWrapper{
+    max-width: 300px;
+}
+
+.registerLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    position: relative;
+}
+.inputLabel{
+    margin: 4px 0;
+    font-size: 14px;
+}
+.InputField{
+    border: 1px solid #dedede;
+    padding: 8px;
+}
+.ShowPassword{
+    background-color: white;
+    border: none;
+    width: fit-content;
+    font-size: 10px;
+    position: absolute;
+    top: 36px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.SubmitBtn{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    background-color: #ff7043;
+    color: white;
+    font-weight: 600;
+    cursor: pointer; 
+}
+.SubmitBtn:disabled{
+    background-color: #f7b4a0;
+    cursor:not-allowed;
+}
+
+.accountConfirmation{
+    font-size: 13px;
+    color: #696868;
+    margin-bottom: 10px;
+}
+.PrivacyAgreement{
+    font-size: 13px;
+    color: #a3a2a2;
+}

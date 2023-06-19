@@ -1,0 +1,26 @@
+.Header{
+    border-bottom: 1px solid rgb(233, 231, 231);
+    height: 100px;
+}
+.Header-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav{
+    padding: 10px 15px;
+    color: white;
+    background-color: #ff7043;
+}
+
+.headerloginLogo{
+  width: 80px;
+}
+.headerlogo{
+  width: 100%;
+}
